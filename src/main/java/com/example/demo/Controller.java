@@ -19,4 +19,18 @@ public class Controller {
                + "\n App is working"
                + "\n App is working";
     }
+
+    @RequestMapping("/super-test")
+    public String showTest() {
+        return "App is working"
+               + "\n App is working"
+               + "\n App is working"
+               + "\n App is working"
+               + "\n App is working"
+               + "\n App is working"
+               + "\n App is working"
+               + "\n App is working"
+               + "\n App is working"
+               + "\n App is working";
+    }
 }
